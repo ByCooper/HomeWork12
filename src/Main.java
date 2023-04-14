@@ -13,5 +13,14 @@ public class Main {
         book2.setYear(2005);
         System.out.printf("\n" + "Книга называется %s, автор %s %s, год издания %s", book2.getName(), book2.author.getFirstName(), book2.author.getMiddleName(), book2.getYear());
 
+        System.out.println("\n");
+
+        System.out.println(book2);
+
+        System.out.println("\n");
+
+        System.out.println(book2.hashCode());
+
+        System.out.println(book1.equals(book2));
     }
 }
