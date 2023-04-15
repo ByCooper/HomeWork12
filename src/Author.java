@@ -27,4 +27,12 @@ public class Author {
     public int hashCode() {
         return Objects.hash(firstName, middleName);
     }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "firstName='" + firstName + '\'' +
+                ", middleName='" + middleName + '\'' +
+                '}';
+    }
 }
